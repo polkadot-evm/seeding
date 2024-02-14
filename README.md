@@ -94,7 +94,7 @@ includes:
 * [Astar](https://github.com/AstarNetwork/Astar)
 * Please submit PRs to add another tool to this list.
 
-We currently only defines two ranks, rank I and rank III. Rank I means a member
+We currently only define two ranks, rank I and rank III. Rank I means a member
 is at least somewhat involved, and rank III means a member is deeply involved.
 
 ### Seeding
