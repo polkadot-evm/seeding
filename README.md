@@ -85,13 +85,14 @@ and developed by an external team who wins the bid.
 ### Definition
 
 One is eligible as a member of the Polkadot EVM collective if one is involved in
-the development of a tool or a parachain that have EVM feature. This currently
+the development of a tool or a parachain/solochain that have EVM feature. This currently
 includes:
 
 * [Frontier](https://github.com/polkadot-evm/frontier)
 * [Rust-EVM](https://github.com/rust-ethereum/evm)
 * [Moonbeam](https://github.com/moonbeam-foundation/moonbeam)
 * [Astar](https://github.com/AstarNetwork/Astar)
+* [Edgeware (EdgeEVM)](https://github.com/edgeware-network/edgeware-node)
 * Please submit PRs to add another tool to this list.
 
 We currently only define two ranks, rank I and rank III. Rank I means a member
