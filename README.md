@@ -9,7 +9,7 @@ standardization body that will be in charge of its own RFC process. It wants to
 provide transparency over the development and maintenance of various tools that
 the ecosystem uses. It also tries to create an inclusive roadmap with the aim
 of reconcile different needs. And finally, it provides expert opinions when the
-need raises. We'll discuss the three goals in more details in the following
+need raises. We'll discuss the four goals in more details in the following
 sections.
 
 The discussion of an on-chain Polkadot EVM collective has been under way during
