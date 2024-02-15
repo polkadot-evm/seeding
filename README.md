@@ -89,7 +89,7 @@ the development of a tool or a parachain that have EVM feature. This currently
 includes:
 
 * [Frontier](https://github.com/polkadot-evm/frontier)
-* [rust-evm](https://github.com/rust-ethereum/evm)
+* [Rust-EVM](https://github.com/rust-ethereum/evm)
 * [Moonbeam](https://github.com/moonbeam-foundation/moonbeam)
 * [Astar](https://github.com/AstarNetwork/Astar)
 * Please submit PRs to add another tool to this list.
