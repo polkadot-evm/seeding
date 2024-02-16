@@ -100,7 +100,8 @@ is at least somewhat involved, and rank III means a member is deeply involved.
 
 ### Seeding
 
-All seeding members are set to be rank III and is subject to a final vote of a
-root referendum.
+All seeding members are subject to a final vote of a root referendum. Please submit PRs
+to add your name to the seeding list.
 
-* Please submit PRs to add your name to the seeding list.
+| Github username | Polkadot Account | Rank |
+| :---: | :---: | :---: |
