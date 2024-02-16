@@ -107,4 +107,3 @@ to add your name to the seeding list.
 
 | Github username | Polkadot Account | Rank |
 | :---: | :---: | :---: |
-| [sorpaas](https://github.com/sorpaas) | `14ShUZUYUR35RBZW6uVVt1zXDxmSQddkeDdXf1JkMA6P721N` | 3 |
