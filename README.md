@@ -94,6 +94,7 @@ includes:
 * [Astar](https://github.com/AstarNetwork/Astar)
 * [Edgeware (EdgeEVM)](https://github.com/edgeware-network/edgeware-node)
 * [Polkadot EVM substrate-etl/Dune integration (Colorful Notion)](https://polkadot.polkassembly.io/referenda/366)
+* [Acala](https://github.com/AcalaNetwork/Acala)
 * Please submit PRs to add another tool to this list.
 
 We currently only define two ranks, rank I and rank III. Rank I means a member
