@@ -106,3 +106,4 @@ root referendum.
 
 * Please submit PRs to add your name to the seeding list.
 * Sourabh Niyogi [Colorful Notion]
+* Michael Chung [Colorful Notion]
