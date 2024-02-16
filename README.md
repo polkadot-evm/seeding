@@ -56,14 +56,14 @@ they have vast influence on how subsequently the ecosystem develops tools and
 use contracts.
 
 Should the EVM interpreter be on-chain or should EVM contracts be off-chain
-compiled first? How strict should we treat EVM compatiblity? What is the
+compiled first? How strict should we treat EVM compatibility? What is the
 timeline of EVM? Should we support EVM indefinitely, or is it purely there to
 provide a migration path to WASM/RISC-V?
 
 Such issues have big impact over dapp developers. If they develop on Polkadot,
 we want to make sure they have certainty over what they may have and not have in
 the near future, so that they know that whatever tools they developed wouldn't
-be made obsolete by the core dev team. The Pokladot EVM collective aims to
+be made obsolete by the core dev team. The Polkadot EVM collective aims to
 provide a discussion platform that can provide some certainty.
 
 We also deal with bigger issue in the roadmap, such as the migration of a
@@ -93,7 +93,6 @@ includes:
 * [Moonbeam](https://github.com/moonbeam-foundation/moonbeam)
 * [Astar](https://github.com/AstarNetwork/Astar)
 * [Edgeware (EdgeEVM)](https://github.com/edgeware-network/edgeware-node)
-* [Acala](https://github.com/AcalaNetwork/Acala)
 * Please submit PRs to add another tool to this list.
 
 We currently only define two ranks, rank I and rank III. Rank I means a member
@@ -106,3 +105,5 @@ to add your name to the seeding list.
 
 | Github username | Polkadot Account | Rank |
 | :---: | :---: | :---: |
+| [sourabhniyogi](https://github.com/sourabhniyogi) | `5D58imQFuMXDTknQS2D14gDU2duiUC18MGxDnTKajjJS9F3g` | 3 |
+| [mkchungs](https://github.com/mkchungs) | `5D58imQFuMXDTknQS2D14gDU2duiUC18MGxDnTKajjJS9F3g` | 3 |
