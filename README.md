@@ -96,6 +96,7 @@ includes:
 * [Polkadot EVM substrate-etl/Dune integration (Colorful Notion)](https://polkadot.polkassembly.io/referenda/366)
 * [Acala](https://github.com/AcalaNetwork/Acala)
 * [Darwinia](https://github.com/darwinia-network/darwinia)
+* [Hyperledger Solang](https://github.com/hyperledger/solang)
 * Please submit PRs to add another tool to this list.
 
 We currently only define two ranks, rank I and rank III. Rank I means a member
