@@ -97,6 +97,7 @@ includes:
 * [Acala](https://github.com/AcalaNetwork/Acala)
 * [Darwinia](https://github.com/darwinia-network/darwinia)
 * [Hyperledger Solang](https://github.com/hyperledger/solang)
+* [Magnet](https://github.com/Magport/Magnet)
 * Please submit PRs to add another tool to this list.
 
 We currently only define two ranks, rank I and rank III. Rank I means a member
