@@ -92,6 +92,7 @@ includes:
 * [Rust-EVM](https://github.com/rust-ethereum/evm)
 * [Moonbeam](https://github.com/moonbeam-foundation/moonbeam)
 * [Astar](https://github.com/AstarNetwork/Astar)
+* [Tangle](https://github.com/webb-tools/tangle)
 * [Edgeware (EdgeEVM)](https://github.com/edgeware-network/edgeware-node)
 * [Polkadot EVM substrate-etl/Dune integration (Colorful Notion)](https://polkadot.polkassembly.io/referenda/366)
 * [Acala](https://github.com/AcalaNetwork/Acala)
