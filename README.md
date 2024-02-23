@@ -111,3 +111,4 @@ to add your name to the seeding list.
 
 | Github username | Polkadot Account | Rank |
 | :---: | :---: | :---: |
+| [koushiro](https://github.com/koushiro) | `15XuanNimo5951s3RjFTPX1AvYVnCwfr3SDhb3AV4fQF3LpK` | 3 |
