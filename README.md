@@ -110,4 +110,4 @@ All seeding members are subject to a final vote of a root referendum. Please sub
 to add your name to the seeding list.
 
 | Github username | Polkadot Account | Rank |
-| :---: | :---: | :---: |
+| [xermicus](https://github.com/xermicus) | `5GgU8FF1T81zk6c98Png1eGSrzUYg52iTNV8ZjRnmjaxSafR` | 3 |
