@@ -111,3 +111,4 @@ to add your name to the seeding list.
 
 | Github username | Polkadot Account | Rank |
 | :---: | :---: | :---: |
+| [boundless-forest](https://github.com/boundless-forest) | `12eFBngsUTJB3XCYcUYVLD7rs4gDXuEaebnB6r1dCuqpW9Jg` | 3 |
