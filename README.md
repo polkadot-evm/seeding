@@ -111,3 +111,5 @@ to add your name to the seeding list.
 
 | Github username | Polkadot Account | Rank |
 | :---: | :---: | :---: |
+| danicuki | 127XreSJZW91qLc91hwepYZ9pBfuNveqDERv9KDrm2oQf4Lu | I |
+
