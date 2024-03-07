@@ -112,3 +112,4 @@ to add your name to the seeding list.
 | Github username | Polkadot Account | Rank |
 | :---: | :---: | :---: |
 | [noandrea](https://github.com/noandrea) | `155xeAThQwTgLTixDRLCbL89AJNSYBuEGQXunPPUdiAopTpq` | 3 |
+| [crystalin](https://github.com/crystalin) | `14zVxzPojcnJbC5mBQTMqUMsH1WMSBRRjEZ3WyWQoqtPahHX` | 3 |
