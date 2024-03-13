@@ -149,7 +149,7 @@ The Polkadot EVM Collective has its own salary system and sub-treasury system fo
 use. Their values, right now, is always 0. Any increase or funding is only done through
 Polkadot referendums.
 
-### Seeding
+## Seeding
 
 All seeding members are subject to a final vote of a root referendum. Please submit PRs
 to add your name to the seeding list.
