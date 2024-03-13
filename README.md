@@ -143,6 +143,12 @@ on-chain, subject to all members' approvals. Below are examples of possible role
 Adding or removing a role of a member is done with a motion in the collective, with
 the voting power defined by ranks.
 
+## Salary and sub-treasury
+
+The Polkadot EVM Collective has its own salary system and sub-treasury system for future
+use. Their values, right now, is always 0. Any increase or funding is only done through
+Polkadot referendums.
+
 ### Seeding
 
 All seeding members are subject to a final vote of a root referendum. Please submit PRs
@@ -150,3 +156,56 @@ to add your name to the seeding list.
 
 | Github username | Polkadot Account | Rank |
 | :---: | :---: | :---: |
+
+## Discussions
+
+### A big collective or several small collectives
+
+While designing the collective, the first question we faced is whether we should have
+one single big collective -- one that covers all Polkadot ecocsystem ("The Polkadot
+Ecosystem Collective") -- or several small collectives, each focusing on a concrete and
+specific field in Polkadot.
+
+We believe that small collectives are much more effective in carrying out its tasks:
+
+* Being **concrete and specific** ensures that all members of the collective always know
+  the mission of the collective. What belongs, and not belongs a collective is always
+  extremely clear.
+* Small collectives are **composible**. It's possible to compose small collectives into
+  a big collective, should the need raises. Members of the big collective are instances of
+  small collectives, instead of people. On the other hand, it's difficult to divide a big
+  collective into smaller collectives, if we realize that the former is not functioning
+  well.
+* Small collectives can **move faster and get more things done** because everyone is working
+  in roughly the same field. Misunderstandings are less likely. The objectives are more
+  clear. Participations are better encouraged because all motions / RFCs matters to
+  nearly everyone.
+
+The only real drawback we know so far about small collectives is the **maintenance burden** -- at
+this moment, all collectives require separate runtime pallets and also requiring runtime upgrade.
+The technology should serve the community, instead of the other way around, and we plan to address this
+by developing a separate set of pallets that can host multiple collectives, with sub-treasury and
+salary features. Proposing a new collective becomes a runtime config change, instead of a runtime
+upgrade.
+
+### A flat or a deep ranking system
+
+Readers may notice that in Polkadot EVM Collective's membership design, we only have two ranks,
+junior members (with vote power correspond to rank I), and senior members (with vote power correspond
+to rank III). We designed this to be a **flat ranking system**. This is in contrast to the
+Polkadot Fellowship Collective where we have a **deep ranking system**, with 7-9 ranks.
+
+We use a flat ranking system due to the practicality of the Polkadot EVM Collective, that we
+want to ensure that majority of members are actually on-board with a certain motion. The EVM collective
+deals less with visionary changes, but more with the practical reality of making EVM work well on
+Polkadot. We want to ensure that the metering changes done specifically for Polkadot are properly
+reviewed, that precompiles can work with each other, and that EVM contracts across different parachains
+can interop. It is therefore really important to ensure that members are actually on-board, without
+the risk if a really senior member disagrees with everyone else.
+
+Instead of putting everything in ranks, we define a separate concept alongside, called **roles**.
+Rather than ranks, which is always on a singular scale, roles have much more clearly defined responsibilities.
+A role can be a project maintainer, an RFC editor, a community spokesperson, or a special task-force.
+People in Fellowship often have the question of what are the "evidences" needed to retain or move up
+a rank. The confusion raises because while all doing the core protocol development, people still share
+vastly different reponsibilities. A separate concept, "roles", fixes the problem.
