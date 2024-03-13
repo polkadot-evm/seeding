@@ -80,13 +80,12 @@ don't expect the collective to handle anything related to code implementation.
 It will likely be decided through a tendering process via a treasury referendum,
 and developed by an external team who wins the bid.
 
-## Membership
+## Scope
 
-### Definition
-
-One is eligible as a member of the Polkadot EVM collective if one is involved in
-the development of a tool or a parachain/solochain that have EVM feature. This currently
-includes:
+The scope of the collective is intentionally set to be specific and concrete in
+order to ensure a functional collaberation. One is eligible as a member of the
+Polkadot EVM collective if one is involved in the development of a tool or a
+parachain/solochain that has EVM feature. This currently includes:
 
 * [Frontier](https://github.com/polkadot-evm/frontier)
 * [Rust-EVM](https://github.com/rust-ethereum/evm)
@@ -101,8 +100,48 @@ includes:
 * [Magnet](https://github.com/Magport/Magnet)
 * Please submit PRs to add another tool to this list.
 
-We currently only define two ranks, rank I and rank III. Rank I means a member
-is at least somewhat involved, and rank III means a member is deeply involved.
+## Membership
+
+There are two aspects of the membership -- ranks and roles, which serve the specific
+purposes. Ranks define a member's voting power within the collective. Roles give out
+additional permissions.
+
+### Ranks
+
+Two ranks are defined.
+
+* **Junior members**. This corresponds to rank I. This is a member that is at least
+  somewhat involved in Polkadot EVM development.
+* **Senior members**. This corresponds to rank III. This is a member that is deeply
+  involved in Polkadot EVM development.
+
+We intentionally skipped rank II, to allow more detailed ranks to be defined in the
+future.
+
+### Roles
+
+Roles make sure that the responsibilities within the collective is always clearly
+defined. A member in the collective can have multiple roles. And it is expected that
+financial incentives (if any) is associated with roles, not ranks.
+
+The list of roles are dynamic. On-chain, the definition of roles, apart from the
+necessary indexing, only contain its short name. And roles can be added or removed
+without runtime upgrades.
+
+The initial list of roles will only be defined once the collective becomes active
+on-chain, subject to all members' approvals. Below are examples of possible roles:
+
+* **RFC editor**: grants merge rights to the EVM RFC repository, responsible for
+  maintaining the RFC process.
+* **Frontier maintainer**: grants merge rights to the Frontier repository, responsible
+  for maintaining the Frontier project and making new releases.
+* **Other project maintainer roles**.
+* **Speaker of the collective**: responsible for publishing the collective's annual report
+  to the community and handle certain communications.
+* **Special task force roles**. For example, launching a community-driven EVM parachain.
+
+Adding or removing a role of a member is done with a motion in the collective, with
+the voting power defined by ranks.
 
 ### Seeding
 
