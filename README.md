@@ -2,14 +2,14 @@
 
 The Polkadot EVM collective is a planned on-chain technical collective that
 deals with everything related to EVM. It is similar to the fellowship program,
-and instead of dealing with the runtime, it deals with EVM issues.
+with the topic of EVM, instead of core runtime.
 
 There are four goals of this collective. It is first and foremost a
 standardization body that will be in charge of its own RFC process. It wants to
 provide transparency over the development and maintenance of various tools that
 the ecosystem uses. It also tries to create an inclusive roadmap with the aim
-of reconcile different needs. And finally, it provides expert opinions when the
-need raises. We'll discuss the four goals in more details in the following
+of reconcile different needs. And finally, it provides expert opinions to those
+who need them. We'll discuss the four goals in more details in the following
 sections.
 
 The discussion of an on-chain Polkadot EVM collective has been under way during
@@ -102,31 +102,38 @@ parachain/solochain that has EVM feature. This currently includes:
 
 ## Membership
 
-There are two aspects of the membership -- ranks and roles, which serve the specific
-purposes. Ranks define a member's voting power within the collective. Roles give out
-additional permissions.
+There are two aspects of the membership -- ranks and roles. Rank defines a member's
+voting power within the collective. Role gives out ecosystem-specific permissions
+and responsibilities.
 
-### Ranks
+### Rank
 
-Two ranks are defined.
+The EVM Collective uses a flat ranking system. We have two ranks.
 
 * **Junior members**. This corresponds to rank I. This is a member that is at least
   somewhat involved in Polkadot EVM development.
 * **Senior members**. This corresponds to rank III. This is a member that is deeply
   involved in Polkadot EVM development.
 
-We intentionally skipped rank II, to allow more detailed ranks to be defined in the
-future.
+The ranks of a member define the member's voting power. Unlike the Fellowship
+collective, rank does not determine a member's other privileges, such as any financial
+incentives. They are instead defined by "roles", which we explain in more
+details below.
 
-### Roles
+### Role
 
-Roles make sure that the responsibilities within the collective is always clearly
-defined. A member in the collective can have multiple roles. And it is expected that
-financial incentives (if any) is associated with roles, not ranks.
+Role defines a member's responsibilities within the collective. The collective is run
+under the assumption that a member's contribution is correlated with the member's
+devotion, not seniority. As a result, financial incentives (if any) is associated with
+a role, but not with ranks. There are also no limitations on lower ranks with "higher"
+roles. A junior member might well have more financial incentives or other benefits,
+than a senior member, if she or he contributes more.
 
-The list of roles are dynamic. On-chain, the definition of roles, apart from the
-necessary indexing, only contain its short name. And roles can be added or removed
-without runtime upgrades.
+The list of roles are dynamic. On-chain, the definition of a role contains only two
+information -- its index, and a shortname. Roles can be added or removed by changing
+the runtime config, without runtime upgrades. The addition and removal of roles,
+and the granting and dismissing of roles of a member, is done by a majority vote of
+the collective (respective to the member's voting power), or a referendum in OpenGov.
 
 The initial list of roles will only be defined once the collective becomes active
 on-chain, subject to all members' approvals. Below are examples of possible roles:
@@ -139,9 +146,6 @@ on-chain, subject to all members' approvals. Below are examples of possible role
 * **Speaker of the collective**: responsible for publishing the collective's annual report
   to the community and handle certain communications.
 * **Special task force roles**. For example, launching a community-driven EVM parachain.
-
-Adding or removing a role of a member is done with a motion in the collective, with
-the voting power defined by ranks.
 
 ## Salary and sub-treasury
 
@@ -181,12 +185,12 @@ We believe that small collectives are much more effective in carrying out its ta
   clear. Participations are better encouraged because all motions / RFCs matters to
   nearly everyone.
 
-The only real drawback we know so far about small collectives is the **maintenance burden** -- at
+The only real drawback we know so far about small collectives is the **maintenance burden**. At
 this moment, all collectives require separate runtime pallets and also requiring runtime upgrade.
-The technology should serve the community, instead of the other way around, and we plan to address this
-by developing a separate set of pallets that can host multiple collectives, with sub-treasury and
-salary features. Proposing a new collective becomes a runtime config change, instead of a runtime
-upgrade.
+As we expect at least a dozen new collectives in the near future, this is not scalable. We plan
+to address this by helping the Fellowship to develop a separate set of pallets that can host
+multiple collectives, with sub-treasury and salary features. Proposing a new collective becomes
+a runtime config change, instead of a runtime upgrade.
 
 ### A flat or a deep ranking system
 
@@ -198,14 +202,14 @@ Polkadot Fellowship Collective where we have a **deep ranking system**, with 7-9
 We use a flat ranking system due to the practicality of the Polkadot EVM Collective, that we
 want to ensure that majority of members are actually on-board with a certain motion. The EVM collective
 deals less with visionary changes, but more with the practical reality of making EVM work well on
-Polkadot. We want to ensure that the metering changes done specifically for Polkadot are properly
-reviewed, that precompiles can work with each other, and that EVM contracts across different parachains
-can interop. It is therefore really important to ensure that members are actually on-board, without
-the risk if a really senior member disagrees with everyone else.
+Polkadot. We want to ensure that, for example, EVM metering changes done specifically for Polkadot
+are properly reviewed, that precompiles can work with each other, and that EVM contracts across
+different parachains can interop. It is therefore really important to ensure that members are
+actually on-board, without the risk if a really senior member disagrees with everyone else.
 
-Instead of putting everything in ranks, we define a separate concept alongside, called **roles**.
-Rather than ranks, which is always on a singular scale, roles have much more clearly defined responsibilities.
-A role can be a project maintainer, an RFC editor, a community spokesperson, or a special task-force.
-People in Fellowship often have the question of what are the "evidences" needed to retain or move up
-a rank. The confusion raises because while all doing the core protocol development, people still share
-vastly different reponsibilities. A separate concept, "roles", fixes the problem.
+Rank only defines a member's voting power. We introduced a separate concept, called **roles**, to
+define a member's responsibilities within the collective. Any financial incentives or benefits of
+a member is associated with a role, but not a rank. A role can be a project maintainer, an RFC editor,
+a community spokesperson, or a special task-force. Compared with the design of the Fellowship collective,
+which relies on a linear scale of ranks, the separate concept of roles makes it significantly easier
+to assess a member, and determine whether she or he is sufficiently carrying out the duty.
